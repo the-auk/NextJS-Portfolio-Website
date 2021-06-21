@@ -1,0 +1,25 @@
+.wrapper{
+    max-width: 100%;
+}
+.wrapcolumn{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0, rgba(22, 22, 22, 0.3), rgba(60, 60, 60, 0.5));
+    margin-bottom: 1vw;
+}
+
+.wraprow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 2vw;
+}
+.image{
+    max-width: 15vw;
+    height: 15vh;
+}
