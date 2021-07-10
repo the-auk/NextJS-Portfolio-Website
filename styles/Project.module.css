@@ -34,6 +34,30 @@
   height: 20vw;
   width: auto;
 }
-.mix2{
-  height: 17vw;
+
+@media (max-width:768px) {
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+  }
+  .proj{
+    flex-direction: column;
+    margin-bottom: 2vw;
+  }
+  .mix{
+    width: 50vw;
+    height: auto;
+    margin-bottom:1vw;
+  }
+  .header{
+    font-size: 3vw;
+    margin-bottom: -1vw;
+  }
+  .projleft{
+    width: 95%;
+    font-size: 2vw;
+  }
 }

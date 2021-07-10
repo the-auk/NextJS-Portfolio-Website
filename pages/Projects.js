@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
         <div className={styles.proj}>
         <div className={styles.projright}>
-          <img className={styles.mix2} src = "DOM.PNG" />
+          <img className={styles.mix} src = "DOM.PNG" />
         </div>
             <div className={styles.projleft}>
               <p className={styles.header}> PIG Game</p>
@@ -36,6 +36,17 @@ export default function Projects() {
                  HTML | CSS | Vanilla JavaScript
               </p>
         </div>
+        </div>
+        <div className={styles.proj}>
+            <div className={styles.projleft}>
+              <p className={styles.header}> Monthly Budget App</p>
+              <p>A Web Application that lets the user put in expenses and income and gives outputs the budget.<br />
+                 HTML CSS Vanilla JavaScript
+              </p>
+        </div>
+        <div className={styles.projright}>
+          <img className={styles.mix} src = "JSC.PNG" />
+          </div>
         </div>
         <Head>
           <title>Tanmay Ivar Siwach</title>

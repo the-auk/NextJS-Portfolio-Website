@@ -14,8 +14,8 @@ export default function Coding() {
             <div className={styles.wraprow}>
             <img alt="Java" title="Java" className={styles.image} src="/java.png" />
             <img alt="Python" title="Python" className={styles.image} src="/python.png" />
-            <img alt="Unity" title="Unity" className={styles.image} src="/unity.png" />
             <img alt="Selenium" title="Selenium" className={styles.image} src="/selenium.png" />
+            <img alt="Unity" title="Unity" className={styles.image} src="/unity.png" />
             </div>
             <div className={styles.wraprow}>
             <img alt="MySQL" title="MySQL" className={styles.image} src="/mysql.png" />

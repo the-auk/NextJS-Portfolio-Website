@@ -15,11 +15,29 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 70%;
     padding: 2vw;
 }
 .image{
     max-width: 15vw;
-    height: 15vh;
+    height: auto;
+    padding: 1vw;
+}
+.grey{
+    filter: invert(100%);
+}
+@media (max-width:768px){
+    .image{
+        max-width: 50vw;
+        width: 30vw;
+    }
+    .image{
+        max-width: 50vw;
+        width: 25vw;
+    }
+    .wraprow{
+        width: 95%;
+        flex-wrap: wrap;
+    }
 }

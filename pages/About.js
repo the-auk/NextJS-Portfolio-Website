@@ -7,9 +7,9 @@ export default function About() {
         <div className={styles.aboutwrap}>
         <div className={styles.textarea}>
                 <h1>Working as a Database Engineering Intern at Katch Media</h1>
-                <h1>Developing a social platform for people who like tattoos.</h1>
+                <h1>Learning Python and how to visualize data using it.</h1>
                 <h1>Watching animes and reading mangas or looking at Cars.</h1>
-                <h1>Planning to go to the Van Gogh SF exhibit.</h1>
+                <h1>Probably planning my next trip to somewhere.</h1>
             </div>
         
         </div>

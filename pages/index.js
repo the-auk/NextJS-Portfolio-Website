@@ -5,14 +5,15 @@ import Project from './Projects.js'
 import About from './About.js'
 import Coding from './Coding.js'
 export default function Home() {
-  const[showSection, setshowSection] = useState("about")
+  const[showSection, setshowSection] = useState("")
+
   // const[showAbout, setshowAbout] = useState(true)
   // const[showProject, setshowProject] = useState(false)
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
       <div className={styles.navbar}>
-        <div className={styles.navbarleft}><a href="#">TheAuk</a></div>
+        <div className={styles.navbarleft}><span>TheAuk</span></div>
         <div className={styles.navbarright}>
         <a href="http://github.com/the-auk">Github</a>
         <a href="http://linkedin.com/in/tanmaysiwach">LinkedIn</a>

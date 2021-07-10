@@ -21,13 +21,19 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-}
-.navbar a{
   font-family: 'Bebas Neue';
-  display: flex;
-  flex-direction: row;
   color: #e1e1e1;
   font-size: 1.5rem;
+}
+.navbar a{
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem 1.5rem;
+  height: 100%;
+  border: none;
+  border-radius: .3rem;
+}
+.navbarleft span{
   padding: 2.5rem 1.5rem;
   height: 100%;
   border: none;
@@ -136,8 +142,26 @@
 }
 .wrapper2{
   width: 100vw;
-  height: auto;
-  float:left;
-
+  height: 100%;
 }
-
+@media (max-width:768px){
+  .navbar.active{
+    left:0;
+  }
+  .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+  .ivar{
+    font-size: 6.5vw;
+  }
+  .info{
+    font-size: 3vw;
+  }
+  .me{
+    display: none;
+  }
+}
